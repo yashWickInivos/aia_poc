@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "aia-poc-client-side-solution",
+    "id": "39e62227-d43b-4eb1-91cf-f52c4abb509c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "aia-poc description"
+      },
+      "longDescription": {
+        "default": "aia-poc description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "aia-poc Feature",
+        "description": "The feature that activates elements of the aia-poc solution.",
+        "id": "3e6b8c4d-570f-4019-8360-fe6695402f9f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/aia-poc.sppkg"
+  }
+}
